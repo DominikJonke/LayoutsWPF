@@ -1,0 +1,21 @@
+﻿<Window x:Class="Layouts.Layout.Dock"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Layouts.Layout"
+        mc:Ignorable="d"
+        Title="Dock" MinHeight="200" MaxHeight="200" MinWidth="300" MaxWidth="300">
+
+    <DockPanel>
+        <Button DockPanel.Dock="Top" Content="Top 1"/>
+        <Button DockPanel.Dock="Bottom" Content="Bottom 1"/>
+        <Button DockPanel.Dock="Bottom" Content="Bottom 2"/>
+        <Button DockPanel.Dock="Left" Content="Left 1"/>
+        <Button DockPanel.Dock="Right" Content="Right 1"/>
+        <Button DockPanel.Dock="Top" Content="Top 2"/>
+        <Button DockPanel.Dock="Right" Content="Right 2"/>
+        <Button Content="Center"/>
+
+    </DockPanel>
+</Window>
